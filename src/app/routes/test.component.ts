@@ -9,6 +9,8 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
     <div>
       <button nz-button nzType="primary" routerLink="/test/a">a</button>
       <button nz-button nzType="primary" routerLink="/test/b">b</button>
+      <button nz-button nzType="primary" routerLink="/test/c">c</button>
+      <button nz-button nzType="primary" routerLink="/test/d">d</button>
     </div>
     <div style="height: 200px">
       <reuse-tab #reuseTab tabType="card" [mode]="2" [allowClose]="true" />
